@@ -20,9 +20,9 @@ int main(void)
 	if(!fin1.is_open() || !fin2.is_open()) cout << "Error: File was not found!" << endl;
 		else 
 		{
-			cout << "The number of lines in file1 = ";
+			cout << "The number of lines in file1 is ";
 			cin >> size1;
-			cout << "The number of lines in file2 = ";
+			cout << "The number of lines in file2 is ";
 			cin >> size2;
 			txt1 = new char*[size1];
 			txt2 = new char*[size2];
